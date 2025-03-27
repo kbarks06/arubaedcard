@@ -99,3 +99,35 @@ label[for=acknowledge1], label[for=acknowledge2]{
     margin-bottom: 10px;
     margin-left: 5px;
 }
+
+/* Media Queury */
+
+@media (max-width: 767px){
+   body{
+    max-width: 100%;
+   } 
+   header{
+    flex-direction: column;
+   }
+   header h2{
+    font-size: 200%;
+    text-align: center;
+   }
+   form{
+    max-width: 80%;
+    margin: 0 auto;
+   }
+   .formgroup{
+    flex-direction: column;
+   }
+   .radiotype{
+    flex-direction: row;
+   }
+   .formgroup label{
+    width: 100%;
+    text-align: left;
+   }
+   input[type=text], input[type=date], select{
+    width: 100;
+   }
+}
